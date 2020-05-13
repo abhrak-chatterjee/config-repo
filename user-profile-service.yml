@@ -1,0 +1,14 @@
+spring:
+  profiles: dev
+  application:
+    name: user-profile-service
+  data:
+    mongodb:
+      host: 18.222.46.56
+      port: 27017
+      database: assignment
+logging:
+  level:
+    root: INFO
+server:
+  port: 8085
